@@ -29,4 +29,15 @@ Seasonality: if the test is running during low-demand period, both screen may sh
 |7805171|	2|	0|
 
 ## 3. Hypothesis Testing
+- Hypothesis:\
+Null hypothesis (H0): There is no difference in conversion rate between screen A and screen B\
+Alternative hypothesis (H1): There is a difference in conversion rate between screen A and screen B
+- Significance level 5%, confidence level 95%
+- Two-sided
+  
+|Screen| Amount| Conversions|
+|------------|--------------|-----------|
+|A|	15025|	5199|
+|B|	15024|	4357|
 
+Use [AB Testing Tool](https://abtestguide.com/calc/), the test result is statistically significant, p-value = 0.0000 < 0.05 -> reject H0 and we can conclude that there is evidence to support that there is a significant difference between the conversion rate of screen A and screen B.
