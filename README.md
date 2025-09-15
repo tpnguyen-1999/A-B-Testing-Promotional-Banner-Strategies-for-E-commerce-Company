@@ -16,6 +16,10 @@ Customer behavior: some customers may respond better to discount shown (discount
 Seasonality: if the test is running during low-demand period, both screen may show lower conversion rate, etc.,
 
 ### AB testing dataset
+- customer_id: unique id of each users
+- group: group1: show screenA | group2: show screenB
+- is_buy: whether that user buy the subscription or not
+
 |customer_id| group| is_buy|
 |------------|--------------|-----------|
 |21393799|	2|	0|
@@ -23,3 +27,6 @@ Seasonality: if the test is running during low-demand period, both screen may sh
 |11655915|	2|	0|
 |18516581|	2|	0|
 |7805171|	2|	0|
+
+## 3. Hypothesis Testing
+
